@@ -1,0 +1,63 @@
+.container{
+    place-self:center;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h2{
+    font-size:35px;
+    color:rgb(145, 234, 234);
+}
+.board{
+    padding:20px;
+    margin:25px;
+    display: flex;
+    flex-direction: row;
+    border-radius:15px;
+    background-color: rgba(114, 104, 104, 0.4);
+}
+.first-row div,.third_row div,.second_row div{
+    width:80px;
+    height:80px;
+    margin:0px 0px;
+    border-radius:5px;
+    border:2px solid rgb(37,31,31);
+    position: relative;
+}
+.submit{
+    padding:12px 30px;
+    border-radius: 30px;
+    border:none;
+    font-size:20px;
+    margin:10px;
+    background-color: rgb(145, 234, 234);
+}
+.first-row img{
+    width:45px;
+    height:45px;
+    position:absolute;
+    left:15px;
+    top:15px;
+}
+.second_row img{
+    width:45px;
+    height:45px;
+    position:absolute;
+    left: 15px;
+    top:15px;
+}
+.third_row img{
+    width:45px;
+    height:45px;
+    position:absolute;
+    left: 15px;
+    top:15px;
+
+
+
+}
+.title img{
+    width:25px;
+    height:25px;
+}
