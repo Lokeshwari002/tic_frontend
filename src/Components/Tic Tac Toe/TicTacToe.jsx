@@ -92,7 +92,7 @@ function TicTacToe() {
 
   const saveGameResult=async(winner,data)=>{
     try{
-      await axios.post("https://tic-server-eq0a.onrender.com/api/save-game",{
+      await axios.post("https://tic-server-2.onrender.com/api/save-game",{
         winner,
         data
       })
